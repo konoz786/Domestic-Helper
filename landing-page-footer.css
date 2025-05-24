@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+.footer{
+    text-align:center;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    padding:10px 0;
+    background-color:#86eeac;
+}
+
+.footer-section{
+    font-size:22px;
+    color:#004953;
+}
+
+.icons{
+    list-style-type:none;
+    display:flex;
+    justify-content:center;
+}
+
+.icons li{
+    display: inline;
+    margin:0 10px 0 10px;
+}
+
+.btn{
+    height:50px;
+    width:50px;
+    transition-property:background,transform;
+    transition-duration:0.4s,0.2s;
+    transition-timing-function: ease-in;
+    border:3px solid #f195b2;
+    border-radius:100px;
+    background-color:white;
+}
+
+.fa-facebook, .fa-instagram, .fa-twitter{
+    transition:0.8s all;
+}
+
+.fa-brands,.fa-facebook{
+    font-size:40px;
+    color: #004953;
+}
+
+.fa-facebook:hover{
+   color:#00a693;
+} 
+
+.fa-instagram:hover{
+   color:#00a693;
+} 
+
+.fa-twitter:hover{
+    color:#00a693;
+}
+
+.footer .logo{
+    font-size:40px;
+    font-weight:bold;
+    margin:10px 0 0 20px;
+}
+
+.footer .first-letter{
+    color:#00a693;
+}

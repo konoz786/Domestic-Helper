@@ -1,0 +1,193 @@
+
+body{
+    background:url("photos/index.jpg");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    font-family:'Poppins', sans-serif;
+    backdrop-filter:blur(2px);
+}
+
+img{
+    max-width:100%;
+    max-height:100%;
+}
+
+#helpers-card-container{
+    width:60%;
+    align-items:center;
+    padding:1% 7%;
+    margin:0 20%;
+}
+
+#helpers-card-container .card{
+    width:100%;
+    display:inline-block;
+    background-color:rgba(0, 73, 83,0.8);
+    padding: 20px 20px;
+    color:white;
+    transition:0.5s all;
+}
+
+#helpers-card-container .card:nth-child(odd){
+    margin:10% 0;
+}
+
+.card:hover{
+    transform:scale(1.1)
+}
+
+.card-title{
+    font-weight:bolder;
+}
+
+.card-text{
+    font-size:1.3rem;
+    font-weight:bold;
+    padding:0 0 5% 0;
+    border-bottom:2px solid white;
+}
+
+.hire-me{
+    margin:5% 30% 0 30%;
+    width:30%;
+    height:40px;
+    border:none;
+    border-radius:6px;
+    display:inline-block;
+    background-color:#00A693;
+    color:white;
+    font-size:1.3rem;
+    border:2px solid white;
+    transition:0.8s all;
+}
+
+.hire-me:hover{
+    background-color:#00F0A8;
+}
+
+.card-image-container{
+    width:400px;
+    height:200px;
+    border-radius:50%;
+    object-fit:cover;
+    margin:0 10px 0 0;
+}
+
+.pagination-bar{
+    height:40px;
+    font-size:1.6rem;
+    display:flex;
+    justify-content:center;
+    margin:0 0 30px 0;
+}
+
+ul li.pagination-btn{
+    background-color:#00F0A8;
+    width:40px;
+    height:40px;
+    margin:0 20px;
+    padding:0 0 0 12px;
+    border-radius:8px;
+}
+
+ul li.pagination-btn a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+    width:40px;
+    height:40px;
+}
+
+@media (max-width:450px){
+ 
+    #helpers-card-container{
+        width:98%;
+        align-items:center;
+        padding:1% 7%;
+        margin:0 1%;
+    }
+    
+    #helpers-card-container .card{
+        width:100%;
+        display:inline-block;
+        background-color:rgba(0, 73, 83,0.8);
+        padding: 20px 20px;
+        color:white;
+        transition:0.5s all;
+    }
+    
+    #helpers-card-container .card:nth-child(odd){
+        margin:10% 0;
+    }
+    
+    .card:hover{
+        transform:scale(1);
+    }
+    
+    .card-title{
+        font-weight:bolder;
+        font-size:1rem;
+    }
+    
+    .card-text{
+        font-size:1rem;
+        font-weight:bold;
+        padding:0 0 7% 0;
+        border-bottom:2px solid white;
+    }
+
+    .card-description{
+        font-size:0.7rem;
+    }
+    
+    .hire-me{
+        margin:5% 30% 0 30%;
+        width:40%;
+        height:30px;
+        border:none;
+        border-radius:4px;
+        display:inline-block;
+        background-color:#00A693;
+        color:white;
+        font-size:0.8rem;
+        border:1px solid white;
+        transition:0.8s all;
+    }
+    
+    .card-image-container{
+        width:80px;
+        height:80px;
+        border-radius:50%;
+        object-fit:cover;
+        margin:0 0 0 33%;
+    }
+    
+    .pagination-bar{
+        height:40px;
+        font-size:1.2rem;
+        display:flex;
+        justify-content:center;
+        margin:0 0 5px 0;
+    }
+    
+    ul li.pagination-btn{
+        background-color:#00F0A8;
+        width:40px;
+        height:40px;
+        margin:0 20px;
+        border-radius:8px;
+        overflow:hidden;
+    }
+    
+    ul li.pagination-btn a{
+        text-decoration:none;
+        color:white;
+        font-weight:bold;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        width:50%;
+    }  
+
+}

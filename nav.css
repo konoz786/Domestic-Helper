@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav{
+    background-color:#86eeac;
+    width:100%;
+    height:90px;
+}
+
+.nav .ul1{
+    height:100%;
+    padding:2% 5%;
+    display:inline-block;
+    margin:1.5% 0 0 26%;
+    z-index:1;
+    padding:0 0 20px 0;
+}
+
+.nav ul li ul{
+    display:inline-flex;
+    flex-direction:column;
+    align-items:center;
+    width:100%;
+    justify-content:center;
+    padding:0;
+}
+
+.nav ul .notification{
+    flex-direction:column;
+    background-color:#86eeac;
+   
+}
+
+.nav ul .notification .ul2{
+    display:inline-flex;
+    list-style-type: none;
+    display:none;
+    background-color:#86eeac;
+}
+
+.nav ul .notification .ul2 li{
+    width:100%;
+}
+
+.nav ul .notification .ul2 li a{
+    width:100%;
+    display:inline-flex;
+    padding:0 0 0 3%;
+}
+
+.nav ul li a{
+    color:#004953;
+    font-size:1.5rem;
+    position:relative;
+    height:40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight:300;
+    text-decoration:none;
+}
+
+.nav .ul1 .li1{
+    display:inline-flex;
+    margin:0 0 0 20px;
+    padding:5px 10px;
+}
+
+.nav a{
+    text-decoration:none;
+}
+
+.logo{
+    font-size:2.5rem;
+    font-weight:bold;
+    margin:0.8% 0 0 1%;
+    color:#004953;
+}
+
+.nav .first-letter{
+    color:#00a693;
+}
+
+.fa-bell, .fa-sharp, .fa-clock-rotate-left, .fa-user, .fa-house, .fa-bring-forward{
+    font-size:1.5rem;
+    margin-right:10px;
+}
+
+.nav ul li a:hover{
+    color:white;
+    transition:0.5s;
+}
+
+.menu{
+    display:none;
+}
+
+
+@media (max-width:450px){
+
+    .nav{
+        width:100%;
+        height:80px;
+    }
+    
+    .nav .ul1{
+        display:flex;
+        flex-direction:column;
+        padding:15px 0 0 0;
+        width:100%;
+        transition:0.5s all;
+        position: relative;
+        right:-100%;
+    }
+
+    .nav .ul1 .li1{
+        background-color:#86eeac;
+        width:100%;
+        padding:10px 0 10px 20px;
+    }
+
+    .nav ul .notification .ul2{
+         display:inline-flex;
+         width:100%;
+    }
+
+    .nav ul .notification .ul2 li{
+        margin:5px 0 5px 45px;
+        padding:0;
+    }
+
+    .nav .ul1 .li1 a{
+        width:100%;
+    }
+    
+    .logo{
+        font-size:1.6rem;
+        font-weight:bold;
+        margin:18px 0 0 2.5%;
+        color:#004953;
+    }
+
+    .fa-bars{
+        font-size:1.8rem;
+        color:#004953;
+    }
+
+    .menu{
+        margin:0 0 0 30%;
+        padding:24px 0 0 0;
+        display:flex;
+        border:none;
+        background-color: #86eeac;
+        cursor: pointer;
+    }
+
+}    

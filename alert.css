@@ -1,0 +1,116 @@
+body{
+    background:url("photos/profile.jpg");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    font-family:'Poppins', sans-serif;
+    backdrop-filter:blur(2px);
+    height:100vh;
+    display:flex;
+    justify-content:center;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.alert1{
+    background-color:rgba(0, 73, 83,0.6);
+    height:400px;
+    width:600px;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    text-align:center;
+    padding:40px 10px 10px 10px;
+    color:white;
+    margin:150px 0 0 0;
+}
+
+.alert1 .title{
+    font-size:60px;
+    font-weight:bold;
+    margin:20px 0 20px 0;
+    color:#87efab ;
+}
+
+.alert1 .icon{
+    font-size:80px;
+    color:#87efab ;
+}
+
+.alert1 .description{
+    font-size:30px;
+    font-weight:500;
+    margin:0 0 10px 0;
+}
+
+.alert1 .btn{
+    width:240px;
+    height:50px;
+    border-radius:6px;
+    display:inline-block;
+    color:white;
+    font-size:20px;
+    transition:0.8s all;
+    margin:30px 0 0 0;
+    border:2px solid white;
+    background-color:#00a693;
+    transition:0.5s all;
+}
+
+.btn:hover{
+    cursor: pointer;
+    transform:scale(1.2);
+}
+
+.alert2{
+    background-color:rgba(0, 73, 83,0.6);
+    height:400px;
+    width:600px;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    text-align:center;
+    padding:40px 10px 10px 10px;
+    color:white;
+    margin:150px 0 0 0;
+}
+
+.alert2 .title{
+    font-size:60px;
+    font-weight:bold;
+    margin:20px 0 20px 0;
+    color:crimson;
+}
+
+.alert2 .icon{
+    font-size:80px;
+    color:crimson ;
+}
+
+.alert2 .description{
+    font-size:30px;
+    font-weight:500;
+    margin:0 0 10px 0;
+}
+
+.alert2 .btn{
+    width:240px;
+    height:50px;
+    border-radius:6px;
+    display:inline-block;
+    color:white;
+    font-size:20px;
+    transition:0.8s all;
+    margin:30px 0 0 0;
+    border:2px solid white;
+    background-color:#00a693;
+    transition:0.5s all;
+}
+
+.btn:hover{
+    cursor: pointer;
+    transform:scale(1.2);
+}

@@ -1,0 +1,361 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    max-height:100%;
+    max-width:100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    font-family:'Poppins', sans-serif;
+}
+
+.login-form{
+    width:1000px;
+    height:870px;
+    border:1px solid rgba(255,255,255,0.7);
+    background-color: rgba(255,255,255,0.3);
+    position: relative;
+    bottom:890px;
+    left:250px;
+    border-radius:8px;
+}
+
+img{
+    max-width:100%;
+    max-height:100%;
+}
+
+.image-container{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+    display:flex;
+    justify-content:center;
+    filter:blur(1.5px);
+}
+
+.logo{
+    font-size:70px;
+    font-weight:bold;
+    color:#004953;
+    display:flex;
+    justify-content:center;
+    margin:40px 0;
+}
+
+.logo .first-letter{
+    color:#00a693;
+}
+
+.employer-form{
+    display:none;
+    flex-direction:column;
+    align-items:center;
+    width:100%;
+}
+
+#helper_image, #image{
+    display:none;
+}
+
+.helper-form{
+    display:none;
+    flex-direction:column;
+    align-items:center;
+    width:100%;
+}
+
+.form-input-wrapper{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+#userType{
+    width:300px;
+    font-size:15px;
+    border-radius:8px;
+    border:none;
+    padding:20px;
+    background-color:#004953;
+    color:white;
+    margin:0 0 20px 0;
+
+}
+
+.employer-form .age,.address,.image-label,.details{
+    width:250px;
+    font-size:15px;
+    border-radius:8px;
+    border:none;
+    padding:20px;
+    background-color:#004953;
+    color:white;
+    margin:0 0 20px 0;
+}
+
+.employer-form .email,.password,.contact{
+    width:250px;
+    font-size:15px;
+    border-radius:8px;
+    border:none;
+    padding:20px;
+    background-color:#004953;
+    color:white;
+    margin:0 0 20px 0;
+}
+
+.employer-form .age{
+    width:250px;
+    font-size:15px;
+    border-radius:8px;
+    border:none;
+    padding:20px;
+    background-color:#004953;
+    color:white;
+    margin:0 0 30px 0;
+}
+
+.helper-form .email,.password,.name,.contact,.address,.image-label{
+    width:250px;
+    font-size:15px;
+    border-radius:8px;
+    border:none;
+    padding:20px;
+    background-color:#004953;
+    color:white;
+    margin:0 0 30px 0;
+}
+
+.helper-form .details{
+    font-family:'Poppins', sans-serif;
+}
+
+.helper-form .age{
+    width:60px;
+    font-size:15px;
+    border-radius:8px;
+    border:none;
+    padding:20px;
+    background-color:#004953;
+    color:white;
+    margin:0 0 30px 0;
+}
+
+.helper-form .fee{
+    width:110px;
+    font-size:15px;
+    border-radius:8px;
+    border:none;
+    padding:20px;
+    background-color:#004953;
+    color:white;
+    margin:0 0 30px 0;
+}
+
+.fee::placeholder{
+    color:white;
+}
+
+.helper-form #gender{
+    width:290px;
+    font-size:15px;
+    border-radius:8px;
+    border:none;
+    padding:20px;
+    background-color:#004953;
+    color:white;
+    margin:0 0 30px 0;
+}
+
+.helper-form .details{
+    text-align:center;
+    width:250px;
+    font-size:15px;
+    border-radius:8px;
+    border:none;
+    padding:20px;
+    background-color:#004953;
+    color:white;
+    display:inline-flex;
+}
+
+.wrapper-services{
+    width:270px;
+    border-radius:8px;
+    font-size:15px;
+    border:none;
+    padding:10px;
+    background-color:#004953;
+    color:white;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+
+.wrapper-services .services{
+    display:flex;
+}
+
+.column-services{
+    display:flex;
+    flex-direction:column;
+    margin:0 0 0 10px;
+    font-size:15px;
+}
+
+.service-label{
+    margin:0 0 10px 0;
+    display:inline-flex;
+}
+
+.wrapper-services .checkbox{
+    margin:0 0 0 10px;
+    height:20px;
+    width:20px;
+}
+
+.employer-form #gender{
+    width:290px;
+    font-size:15px;
+    border-radius:8px;
+    border:none;
+    padding:20px;
+    background-color:#004953;
+    color:white;
+    margin:0 0 30px 0;
+}
+
+.txtbox,.name,.age,.contact,#gender,.address,.details, #userType:focus{
+    outline:none;
+}
+
+#gender,#userType::placeholder{
+    color:white;
+}
+
+.contact::placeholder{
+    color:white;
+}
+
+.details::placeholder{
+    color:white;
+}
+
+.age::placeholder{
+    color:white;
+}
+
+.name::placeholder{
+    color:white;
+}
+
+.email::placeholder{
+    color:white;
+}
+
+.address::placeholder{
+    color:white;
+}
+
+.password::placeholder{
+    color:white;
+}
+
+.txtbox::placeholder{
+    color:white;
+}
+
+.wrapper-btn{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+    margin:30px 0 0 0;
+}
+
+.wrapper-btn a{
+    font-size:20px;
+    text-decoration:none;
+    margin:10px 0;
+    color:#004953;
+}
+
+#userType{
+    margin:0 40px 40px 0;
+}
+
+.logo span:nth-child(2){
+    margin:0 25px 0 0;
+}
+
+.wrapper{
+    height:900px;
+    width:100%;
+    overflow:hidden;
+    position: absolute;
+}
+
+.employer-form .btn{
+    width: 300px;
+    height: 40px;
+    border-radius:10px;
+    font-size: 20px;
+    background-color:#00a693;
+    color: #fff;
+    border: none;
+    transition:0.5s all;
+    border:2px solid white;
+    margin:40px 0 0 0;
+}
+
+.employer-form .wrapper-btn a{
+    margin:20px 0 0 0;
+}
+
+.helper-form .btn{
+    width: 300px;
+    height: 40px;
+    border-radius:10px;
+    font-size: 20px;
+    background-color:#00a693;
+    color: #fff;
+    border: none;
+    transition:0.5s all;
+    border:2px solid white;
+}
+
+.helper-form .wrapper-btn a{
+    margin:0;
+}
+
+.btn:hover{
+    transform:scale(1.2);
+    cursor: pointer;
+}
+
+.image-label:hover{
+    cursor:pointer;
+}
+
+.employer-form .row{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    width:700px;
+}
+
+.helper-form .row{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    width:700px;
+}
+
+.fa-image{
+    margin:0 10px 0 0;
+}

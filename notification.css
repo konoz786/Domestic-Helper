@@ -1,0 +1,217 @@
+
+body{
+    background:url("photos/notification.jpg");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    font-family: 'Poppins', sans-serif;
+    backdrop-filter:blur(2px);
+}
+
+img{
+    max-width:100%;
+    max-height:100%;
+}
+
+#helpers-card-container{
+    width:900px;
+    align-items:center;
+    padding:50px 100px;
+    margin:0 300px;
+}
+
+#helpers-card-container .card{
+    width:700px;
+    display:inline-block;
+    margin:50px 0;
+    background-color:rgba(0, 73, 83,0.8);
+    color:white;
+}
+
+.card-title{
+    font-weight:bolder;
+}
+
+.border-bottom{
+    border-bottom:1px solid white;
+    padding:0 0 15px 0;
+}
+
+.card-text{
+    font-size:20px;
+    font-weight:bold;
+}
+
+.card-status{
+    font-size:20px;
+    font-weight:bold;
+    text-align:center;
+}
+
+.card-status span{
+    color:crimson;
+}
+
+.fa-xmark{
+    margin:0 8px 0 0;
+}
+
+.cancel-request-btn{
+    width:160px;
+    height:40px;
+    border-radius:6px;
+    margin:0 0 0 120px;
+    background-color: crimson;
+    color:white;
+    transition:0.8s all;
+}
+
+.remove-notification-btn{
+    width:200px;
+    height:40px;
+    border-radius:6px;
+    margin:0 0 0 120px;
+    background-color: crimson;
+    color:white;
+    transition:0.8s all;
+}
+
+.remove-notification-btn, .cancel-request-btn{
+    border:2px solid white;
+}
+
+.remove-notification-btn, .cancel-request-btn:hover{
+    transform: scale(1.2);
+}
+
+.card-image-container{
+    width:400px;
+    height:200px;
+    border-radius:50%;
+    object-fit:cover;
+    margin:0 10px 0 0;
+}
+
+.card{
+    padding: 20px 20px;
+}
+
+.pagination-bar{
+    height:40px;
+    font-size:25px;
+    display:flex;
+    justify-content:center;
+    margin:30px 0;
+}
+
+ul li.pagination-btn{
+    background-color:#86eeac;
+    width:40px;
+    height:40px;
+    margin:0 20px;
+    padding:0 0 0 12px;
+    border-radius:8px;
+}
+
+ul li.pagination-btn a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+    width:40px;
+    height:40px;
+}
+
+ul li.active{
+    background-color:skyblue;
+}
+
+
+@media (max-width:450px){
+
+    #helpers-card-container{
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        padding:0;
+        margin:0;
+    }
+    
+    #helpers-card-container .card{
+        width:90%;
+        display:inline-block;
+        margin:30px 0;
+        background-color:rgba(0, 73, 83,0.8);
+        color:white;
+    }
+    
+    .card-title{
+        font-weight:bolder;
+        font-size:1.4rem;
+    }
+    
+    .border-bottom{
+        border-bottom:1px solid white;
+        padding:0 0 15px 0;
+    }
+    
+    .card-text{
+        font-size:1.2rem;
+        font-weight: 100;
+    }
+    
+    .card-status{
+        font-size:1.2rem;
+        font-weight:bold;
+        text-align:center;
+    }
+    
+    .card-status span{
+        color:crimson;
+    }
+    
+    .fa-xmark{
+        margin:0 8px 0 0;
+    }
+    
+    .cancel-request-btn{
+        width:150px;
+        height:40px;
+        border-radius:6px;
+        padding:0 5px;
+        margin:0 0 0 65px;
+        background-color: crimson;
+        color:white;
+        transition:0.8s all;
+    }
+    
+    .remove-notification-btn{
+        width:150px;
+        height:40px;
+        border-radius:6px;
+        margin:0 0 0 35px;
+        background-color: crimson;
+        color:white;
+        transition:0.8s all;
+    }
+    
+    .remove-notification-btn, .cancel-request-btn{
+        border:2px solid white;
+    }
+    
+    .remove-notification-btn, .cancel-request-btn:hover{
+        transform: scale(1.2);
+    }
+    
+    .card-image-container{
+        width:100px;
+        height:100px;
+        border-radius:50%;
+        object-fit:cover;
+        margin:0 0 0 120px;
+    }
+    
+    .card{
+        padding: 10px 5px;
+    }
+}
